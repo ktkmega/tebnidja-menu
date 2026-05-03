@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebnidja Menu</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f3d2e;
+      color: white;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding-bottom: 80px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .menu-img {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    /* Sticky bottom bar */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #0f3d2e;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 0 -5px 15px rgba(0,0,0,0.4);
+    }
+
+    .btn {
+      background: #ff7a2f;
+      color: white;
+      text-decoration: none;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    /* Section titles */
+    .section-title {
+      padding: 10px 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ff7a2f;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">Tebnidja Menu</div>
+
+  <div class="section-title">🥤 Boissons</div>
+  <img src="menu1.jpg" class="menu-img">
+
+  <div class="section-title">🥞 Crêpes</div>
+  <img src="menu2.jpg" class="menu-img">
+
+  <div class="section-title">🍓 Desserts & Fruits</div>
+  <img src="menu3.jpg" class="menu-img">
+
+</div>
+
+<!-- Sticky Action Bar -->
+<div class="bottom-bar">
+  <a class="btn" href="tel:0770000111">📞 Call</a>
+  <a class="btn" href="https://wa.me/213770000111">💬 WhatsApp</a>
+</div>
+
+</body>
+</html>
